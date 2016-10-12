@@ -33,7 +33,10 @@ h1, h2, h3, h4 {
 }
 
 tt {
-  font-size: 125;
+  font-size: 1.2em;
+  background-color: #ddd;
+  border-radius: 0.2em;
+  padding: 0.08em 0.2em;
 }
 
 dl {
@@ -46,7 +49,8 @@ dt {
 
 ul {
   list-style-position: inside;
-  padding-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
 }
 
 li {
