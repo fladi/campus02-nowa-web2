@@ -92,7 +92,7 @@ Lose Bindung mit REST
 
 ----
 
-4: Caching
+3: Caching
 ----------
 
 * Nutzt **HTTP-Caching**.
@@ -100,7 +100,7 @@ Lose Bindung mit REST
 
 ----
 
-5: Einheitliche Schnittstelle
+4: Einheitliche Schnittstelle
 -----------------------------
 
 * Repräsentationen zur Veränderung von Ressourcen.
@@ -245,7 +245,7 @@ Verschachtelung ist nicht begrenzt.
 
 ----
 
-6: Mehrschichtige Systeme
+5: Mehrschichtige Systeme
 -------------------------
 
 * Ein Client muss nicht direkt mit dem Server kommunizieren.
@@ -258,8 +258,8 @@ Verschachtelung ist nicht begrenzt.
 
 ----
 
-Code on Demand
---------------
+6: Code on Demand
+-----------------
 
 * Code wird nur bei Bedarf an den Client übertragen.
 * Zum Beispiel bei HTML/JavaScript.
@@ -271,7 +271,7 @@ Code on Demand
 Sicherheit
 ----------
 
-* Öffentliche services ohne Authentifizierung möglich.
+* Öffentliche Services ohne Authentifizierung möglich.
 * Authentifizierung über verschiedene Mechanismen:
 
   * HTTP Basic Authentication
