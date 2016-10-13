@@ -189,7 +189,7 @@ Clean URLs
 
 Welche URL lässt am besten Rückschlüsse auf ihren Inhalt zu?
 
-.. code::
+::
 
   http://de.wikipedia.org/w/index.php?title=Clean_URL
   http://de.wikipedia.org/w/index.php?id=123

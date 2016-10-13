@@ -12,6 +12,7 @@
 .. _AngularJS: https://angularjs.org/
 .. _Bootstrap: http://getbootstrap.com/
 
+.. title: WEB II
 
 ----
 
@@ -35,12 +36,6 @@ Ziele der Lehrveranstaltung
 * REST-Services konsumieren
 * JavaScript (ECMA5/JS) im Webbrowser
 * AngularJS für Single-Page-Applikations (SPA)
-
-----
-
-Inhalte
-=======
-
 
 ----
 
