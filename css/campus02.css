@@ -39,6 +39,18 @@ tt {
   padding: 0.08em 0.2em;
 }
 
+table {
+  text-align: left;
+}
+
+th p {
+  font-weight: 900;
+}
+
+th, td {
+  border: 2px solid #eee;
+}
+
 dl {
   text-align: initial;
 }
