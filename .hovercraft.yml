@@ -14,3 +14,11 @@
   auto-console: false
   skip-help: true
   skip-notes: true
+02-javascript:
+  source: 02-javascript.rst
+  css:
+    - css/campus02.css
+  template: default
+  auto-console: false
+  skip-help: true
+  skip-notes: true
