@@ -106,7 +106,6 @@ Lose Bindung mit REST
 * Repräsentationen zur Veränderung von Ressourcen.
 * Adressierbarkeit von Ressourcen.
 * Selbstbeschreibende Nachrichten.
-* *Hypermedia as the Engine of Application State* (HATEOAS).
 
 ----
 
@@ -280,14 +279,3 @@ Sicherheit
   * OpenID
 
 * Für sensiblen Nachrichteninhalt ist eine Übertragung mittels HTTPS nötig.
-
-----
-
-Hypermedia as the Engine of Application State (HATEOAS)
--------------------------------------------------------
-
-* Entwurfsprinzip von REST-Architekturen.
-* Clients navigieren eine REST-Schnittstelle ausschließlich über URLs.
-* Ausser der Basis-URL werden alle URLs vom Server bereitgestellt.
-* URLs in JSON-Elementen (z.b. Verweise auf andere Ressourcen).
-* Gewährleistet lose Bindung (keine Schnittstellenbeschreibung nötig).

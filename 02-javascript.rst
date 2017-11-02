@@ -16,8 +16,7 @@ JavaScript
 ----------
 
 * XMLHttpRequest
-* jQuery
-* Angular
+* jQuery.ajax
 
 ----
 
@@ -168,74 +167,3 @@ jQuery AJAX (POST)
   });
   a.done(function(msg){ console.log(msg); });
   a.fail(function(){ console.log('Error: ' + this); });
-
-----
-
-Angular
--------
-
-Freie JavaScript-Bibliothek, basierend auf dem MVVM-Prinzip, für:
-
-* Datenbindungen (uni- und bidirektional)
-* DOM-Manipulation (jQueryLite)
-* Formular-Validierung
-* Event-Handling
-* Wiederverwendbare HTML-Komponenten
-
-----
-
-MVVM - Model View ViewModel
----------------------------
-
-Ein Enfwurfsmuster zur Trennung von Darstellung und Logik einer Benutzeroberfläche.
-
-*Model*
-  Anzuzeigende und manipulierbare Daten. Enthalten Geschäftslogik und führen Validierung durch.
-
-*View*
-  Grafische Oberfläche. Bindet sich an das *ViewModel* um Daten und Interaktionen bereitstellen zu können.
-
-*ViewModel*
-  UI-Logik. Verbindet *Model* und *View*.
-
-----
-
-Angular: Verwendung
--------------------
-
-Angular ohne eigenen JavaScript-Code verwenden:
-
-.. code:: html
-
-  <!doctype html>
-  <html ng-app="example" ng-strict-di>
-    <body>
-      Ich kann rechnen: {{ 23+42 }}.
-      <script src='path/to/angular.js'></script>
-    </body>
-  </html>
-
-----
-
-Angular: Verwendung
--------------------
-
-Ein eigenes Angular-Modul:
-
-.. code:: javascript
-
-  var app = angular.module('example', []);
-  app.controller('Rechner', ['$scope', function($scope) {
-    $scope.ergebnis = 23+42;
-  });
-
-.. code:: html
-
-  <!doctype html>
-  <html ng-app="example" ng-strict-di>
-    <body ng-controller="Rechner">
-      Ich kann rechnen: {{ ergebnis }}.
-      <script src='path/to/angular.js'></script>
-      <script src='path/to/app.js'></script>
-    </body>
-  </html>
